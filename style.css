@@ -99,3 +99,11 @@ form {
     margin-left: -18px;
     padding-right: 10px;
 }
+
+input {
+    font-family: 'Poiret One', cursive;
+    color: #ff6600;
+    font-weight: bold;
+    border: 1.5px solid #695b5a;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
