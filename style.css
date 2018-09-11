@@ -1,1 +1,11 @@
-/* for styling */
+.clip {
+    width: 200px;
+}
+
+.gif-div {
+    float: left;
+}
+
+.still {
+    width: 200px;
+}
