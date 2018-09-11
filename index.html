@@ -4,25 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Poiret+One" rel="stylesheet">
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./style.css">
     <title>Greetings My Friend!</title>
 </head>
 
 <body>
-    <h1>Greetings My Friend!!</h1>
-     
-    <form action="">
-        <label for="greeting-input"></label>
-        <input type="text" id="greeting-input">Add a Greeting!
-        <input id="add-greeting" type="submit" name="Add a Greeting!">
-    </form>
 
-    <div id ="greeting-buttons"></div>
+    <div id ="container">
+        <div class ="row">
+            <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                        <h1 class="display-4">Greetings My Friend!!</h1>
+                    </div>
+            </div>
+        </div>
+        <div class ="row">
+            <div id ="btn-div" class ="col-md-3">
+                <div id ="form-div" class ="row">
+                    <form action="">
+                        <div id ="input-div">
+                            <label id = "input-label" for="greeting-input">Add a Greeting</label><br>
+                            <input type="text" id="greeting-input">
+                        </div>
+                        <button id="add-greeting">Add Button</button>
+                    </form>
+                </div>
+                <div class="row">
+                    <div id ="greeting-buttons"></div>
+                </div>
+            </div>
+            <div class ="col-md-9">
+                <div id ="greeting-gifs"></div>
+            </div>
+        </div>
+    </div>
 
-    <div id ="greeting-gifs"></div>
-
-
+    <script src='https://code.jquery.com/jquery-3.3.1.js' integrity='sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=' crossorigin='anonymous'></script>
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js' integrity='sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T' crossorigin='anonymous'></script>  
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/JavaScript"></script>
     <script src="./logic.js"></script>
