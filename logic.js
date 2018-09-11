@@ -23,7 +23,6 @@ function makeButtons (){
     for (let i = 0; i < giphyArr.length; i++) {
         let title = giphyArr[i]
         let color = btnColor[Math.floor(Math.random() * btnColor.length)]
-        console.log(color)
         $('#greeting-buttons').append (`
             <button id ="btn${title}" class ="greeting-button" style ="background-color: ${color}" onclick="getPictures('${title}')">${title}</button>
         `)
@@ -35,7 +34,7 @@ function getPictures (greeting){
     $('#greeting-gifs').empty()
     let picNumber = 10
     let frame = 1
-    $.get('http://api.giphy.com/v1/gifs/search?q='+greeting+'&api_key='+apiKey+'&limit=15')
+    $.get('https://api.giphy.com/v1/gifs/search?q='+greeting+'&api_key='+apiKey+'&limit=15')
     .then(function (r){
         for (let i = 0; i <picNumber; i++) {
             let rating = (r.data[i].rating)
