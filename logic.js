@@ -43,9 +43,11 @@ function getPictures (greeting){
                 let still = (r.data[i].images.original_still.url)
                 $('#greeting-gifs').append (`
                     <div class="gif-div" style="border-image: url(./images/frame${frame}.png) 240 round;">
-                        <img id ="pic${i}" class="clip" src="${clip}" onclick ="switchPic('still', ${i})">
-                        <img id ="still${i}" class="still" src ="${still}" onclick ="switchPic('clip', ${i})">
-                        <h3 id ="rating">'Rating: '${rating}</h3>
+                        <div id ="pic-div">
+                            <img id ="pic${i}" class="clip" src="${clip}" onclick ="switchPic('still', ${i})">
+                            <img id ="still${i}" class="still" src ="${still}" onclick ="switchPic('clip', ${i})">
+                        </div>
+                        <h3 id ="rating-letter">${rating} RATING</h3>                        
                     </div>
                 `)
                 $('.still').css("display", "none")
