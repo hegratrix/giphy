@@ -1,4 +1,4 @@
-let giphyArr = ["Hello", "Good-Bye", "Hey", "Good Morning", "Good Night", "Sweet Dreams", "Good Luck", "Thinking of You", "Sorry", "Have a Great Day", "Get Well", "Love You", "Miss You"]
+let giphyArr = ["Hello", "Good-Bye", "Hey", "Good Morning", "Good Night", "Sweet Dreams", "Good Luck", "Thinking of You", "Sorry", "Have a Great Day", "Get Well", "Love You", "Miss You", "Safe Flight"]
 let btnColor = ["#ff6600", "#00cccf", "#fed700"]
 let chosenGreeting = ""
 let apiKey= 'Cq9dqB1rAP15arh4r7m2imChIUIf7mcl'

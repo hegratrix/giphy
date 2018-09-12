@@ -14,7 +14,7 @@
 
 .gif-div {
     display: inline-block;
-    width: 250px;
+    width: 280px;
     border: 30px solid transparent;
     margin: 15px;
     position: relative;
@@ -114,4 +114,8 @@ input {
     right: 0;
     bottom: -44px;
     font-family: 'Poiret One', cursive;
+}
+
+#greeting-gifs {
+    padding-left: 55px;
 }
