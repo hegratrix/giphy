@@ -50,7 +50,7 @@ function getPictures (greeting){
                         <h3 id ="rating-letter">${rating} RATING</h3>                        
                     </div>
                 `)
-                $('.still').css("display", "none")
+                $('.clip').css("display", "none")
                 frame++
             } else {
              picNumber++
