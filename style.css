@@ -1,0 +1,121 @@
+.clip {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.still {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gif-div {
+    display: inline-block;
+    width: 280px;
+    border: 30px solid transparent;
+    margin: 15px;
+    position: relative;
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+.greeting-button {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    color: #695b5a;
+    font-weight: bold;
+    border: 1.5px solid #695b5a;
+    text-align: center;
+    display: inline-block;
+    font-family: 'Poiret One', cursive;
+    margin: 6px 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.jumbotron {
+    font-family: 'Berkshire Swash', cursive;
+    background-color: #695b5a;
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    border-bottom: 5px solid #00cccf;
+    padding: 0;
+    padding-top: 15px;
+    margin: 0;
+    color: #00cccf;
+}
+
+#add-greeting {
+    float: right;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    color: #695b5a;
+    font-weight: bold;
+    border: 1.5px solid #695b5a;
+    text-align: center;
+    display: inline-block;
+    font-family: 'Poiret One', cursive;
+    margin: 6px 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#btn-div {
+    padding-left: 65px;
+    border-right: 2px solid #695b5a;
+}
+
+#input-label {
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+    width: 100%;
+    padding-top: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #695b5a;
+    padding-bottom: 10px;
+}
+
+form {
+    display: inherit;
+}
+
+#form-div {
+    padding: 20px;
+    width: 100%;
+    border-bottom: 2px solid #695b5a;
+}
+
+#input-div {
+    margin-left: -18px;
+    padding-right: 10px;
+}
+
+input {
+    font-family: 'Poiret One', cursive;
+    color: #ff6600;
+    font-weight: bold;
+    border: 1.5px solid #695b5a;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#rating-letter {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    color: #ff6600;
+    position: absolute;
+    right: 0;
+    bottom: -44px;
+    font-family: 'Poiret One', cursive;
+}
+
+#greeting-gifs {
+    padding-left: 55px;
+}
